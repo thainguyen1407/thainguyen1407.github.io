@@ -1,104 +1,440 @@
 /* CSS Document */
-*{
-	margin: 0;
-	padding: 0;
-}
-.wrapper{
-	width: 800px;
-	height: 544px;
-	background-color: #1B09F9;
-	margin: 0 auto;
-}
-.header{
-	width: 800px;
-	height: 80px;
-	background-color: #FDFDFD;
-}
-.header img{
-	height: 60px;
-	margin-left: 5px;
-	margin-top: 5px;
-}
-.menu{
-	width: 800px;
-	height: 38px;
-	background-color: #010373;
-	float: left;
-}
-.menu ul li{
-	list-style: none;
-	float: left;
-	line-height: 20px;
-	margin: 10px;
-	font-size: 16px;
-}
-.menu ul li a{
-	text-decoration: none;
-	color: #FFFDFD;
-}
-.menu ul li a:hover{
-	color: #FFFFFF;
-	border-bottom: solid #FFFFFF;
-}
-.content{
-	width: 800px;
-	height: 405px;
-	background-color: #12FD00;
-}
-.left{
-	width: 450px;
-	height: 307px;
-	background-color: #8AD0FC;
-	float: left;
-	padding: 30px;
-}
-.right{
-	width: 290px;
-	height: 367px;
-	background-color: #8AD0FC;
-	float: right;
-	
-}
-.right img{
-	width: 235px;
-	height: 350px;
-	text-align: center;
-	margin-left: 28px;
-	margin-top: 9px;
-}
-.content .left h3{
-	font-style: oblique;
-	text-align: center;
-	
-}
-.content h3:hover{
-	color: red;	
-}
-.content .left p{
-	font-size: 15px;
-}
-.fotter {
-	width: 800px;
-	height: 59px;
-	background-color: #00085E;
-}
-.fotter ul{
-	width: 60%; 
-	margin: 0 auto;
-}
-.fotter ul li{
-	list-style:  none;
-	float: left;
-	line-height: 20px;
-	margin: 10px;
-	font-size: 16px;
-}
-.fotter ul li a{
-	text-decoration: none;
-	color: aliceblue ;
-}
-.fotter ul li a:hover{
-	color: aqua;
-	border-bottom: solid #FFFFFF;
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100vh;
 }
 
+.header{
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+}
+.nen1{
+	width: 15%;
+	height: 100%;
+;
+	float: left;
+}
+.nen1 ul {
+	list-style: none;
+	margin: 1px;
+	padding: 1px;
+}
+.nen1 ul li{
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	
+}
+.nen1 ul li a i{
+	color:#070707;
+}
+.nen2{
+	width: 85%;
+	height: 100%;
+
+	float: right;
+}
+.menu1{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.menu1 ul{
+	list-style: none;
+	margin: 1px;
+	padding: 1px;
+}
+.menu1 ul li{
+	float: left;
+	margin-left: 90px;
+	margin-top: 30px;
+}
+.menu1 ul li a{
+	color: black;
+	text-decoration: none;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 12px;
+	
+}
+.logo{
+	width:30%;
+	height: 100%;
+	background: #FFFFFF;
+	float: left;
+	text-align: center;
+}
+.logo img{
+	width: 100px;
+}
+.menu2{
+	width: 40%;
+	height: 100%;
+	
+	float: right;
+}
+.trai{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.trai ul{
+	list-style: none;
+	margin: 1px;
+	padding: 1px;
+	
+}
+.trai ul li{
+	float: left;
+	margin-left: 70px;
+	margin-top: 30px;
+}
+.trai ul li a{
+	color: black;
+	text-decoration: none;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 12px;
+}
+.phai{
+	width: 40%;
+	height: 100%;
+	float: right;
+}
+.phai ul{
+	list-style: none;
+	margin: 1px;
+	padding: 1px;
+}
+.phai ul li{
+	float: right;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.phai ul li a i{
+	color:#000000;
+}
+.trang1{
+	width: 100%;
+	height: 100vh;
+	background:#9C9C9C;
+}
+.left{
+	width: 50%;
+	height: 100vh;
+	background: #B0B0B0;
+	float: left;
+}
+.left h1{
+	margin-top: 200px;
+	text-align: center;
+	font-size: 50px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.nenleft p{
+	text-align: center;
+	margin-top: 10px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	line-height: 25px;
+	padding: 10%
+	
+}
+.nenleft ul{
+	list-style: none;
+	margin: 1px;
+	padding: 1px;
+}
+.nenleft ul li{
+	text-align: center;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+.nenleft ul li a{
+ text-decoration: none;
+font-size: 20px;
+color: #715933;
+}
+.nenleft ul li a:hover{
+	font-size: 50px;
+	
+}
+
+.right{
+	width: 50%;
+	height: 100vh;
+	background: #B0B0B0;
+	float: right;
+}
+.right img{
+	width: 55%;
+	height: 70%;
+	padding-left:23%;
+	padding-top:20%;
+	
+}
+
+.trang2{
+	width: 100%;
+	height: 100vh;
+	background:#3C90BF;
+	
+	
+}
+.hangtren{
+	width: 100%;
+	height: 50%;
+	background: #FFFFFF;
+	 display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+		
+}
+.o{
+	width: 25%;
+	height:60%;
+	background:#FFFFFF;
+	float: left;
+	margin: 10px;
+	
+}
+.hangduoi{
+	width: 100%;
+	height: 50%;
+	background: #FFFFFF;
+	 display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+	
+
+}
+.o img{
+	width: 100%;
+	height: 100%
+}
+
+.trang3{
+	width: 100%;
+	height: 100vh;
+	background: #B0B0B0;
+}
+.nenchu{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background:#B0B0B0;
+}
+.nenvideo{
+	width: 45%;
+	height: 50%;
+	background: #B1ABA8;
+	float: right;
+	margin-right: 50px;
+	margin-top: 250px;
+	
+}
+.nenvideo img{
+	width: 100%;
+	height: 100%;
+}
+
+.chutren{
+	width: 100%;
+	height: 50%;
+	background: #B0B0B0;
+	
+	
+}
+
+.chutren p{
+	text-align: center;
+	  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+	padding:5%;
+ 
+	
+}
+.chutren h1{
+	color: black;
+	margin: 0px;
+	padding-left: 100px;
+	padding-top: 350px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 42px;
+	
+}
+.chutren ul{
+	list-style: none;
+	margin: 1px;
+	padding: 1px;
+}
+.chutren ul li{
+	text-align: center;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+.chutren ul li a{
+ text-decoration: none;
+font-size: 20px;
+color: #715933;
+}
+.chutren ul li a:hover{
+	font-size: 50px;
+	
+}
+
+.trang4{
+	width: 100%;
+	height: 100vh;
+	background: black;
+}
+.nen4tren{
+	width: 100%;
+	height: 50%;
+	
+}
+.nen4tren img{
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+}
+.nen4duoi{
+	width: 100%;
+	height: 50%;
+
+}
+.nen4duoi img{
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+}
+.duoitrai4{
+	width: 50%;
+	height: 100%;
+	background: #FAFAFA;
+	float: left;
+}
+.duoitrai4 img{
+	width: 100%;
+	height: 100%;
+}
+.duoiphai4{
+	width: 50%;
+	height: 100%;
+	background: #FFFFFF;
+	float: right;
+}
+.trai4{
+	width: 50%;
+	height: 100%;
+	background: #FFFFFF;
+	float: left;
+}
+.phai4{
+	width: 50%;
+	height: 100%;
+	background: #FFFFFF;
+	float: right
+}
+.phai4 h1{
+	color: black;
+	margin: 0px;
+	padding-left: 200px;
+	padding-top: 100px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 42px;
+	
+}
+.phai4 p{
+	text-align: center;
+	  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+	padding:5%;
+ 
+	
+}
+.footer{
+	width: 100%;
+	height: 140px;
+	background:#FFFFFF;
+}
+.trang5{
+	width: 100%;
+	height: 100vh;
+	background: black;
+}
+.nen5tren{
+	width: 100%;
+	height: 50%;
+	
+}
+.nen5tren img{
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+}
+.nen5duoi{
+	width: 100%;
+	height: 50%;
+
+}
+.nen5duoi img{
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+}
+.duoitrai5{
+	width: 50%;
+	height: 100%;
+	background: #FAFAFA;
+	float: left;
+}
+.duoitrai5 img{
+	width: 100%;
+	height: 100%;
+}
+.duoiphai5{
+	width: 50%;
+	height: 100%;
+	background: #FFFFFF;
+	float: right;
+}
+.trai5{
+	width: 50%;
+	height: 100%;
+	background: #FFFFFF;
+	float: left;
+}
+.phai5{
+	width: 50%;
+	height: 100%;
+	background: #FFFFFF;
+	float: right
+}
+.trai5 h1{
+	color: black;
+	margin: 0px;
+	padding-left: 160px;
+	padding-top: 90px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 40px;
+	
+}
+.trai5 p{
+	text-align: center;
+	  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+	padding:5%;
+ 
+	
+}
